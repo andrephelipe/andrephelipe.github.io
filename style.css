@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    background-color: darkseagreen;
+    background-color: rgb(109,89,122);
     font-size: 20px;
 }
 
@@ -37,4 +37,8 @@ h3 {
 
 .center {
     text-align: center;
+}
+
+#myName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
