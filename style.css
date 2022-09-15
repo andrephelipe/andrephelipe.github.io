@@ -1,4 +1,28 @@
-h1 {
+@font-face {
+    font-family:'bigger';
+    src: url('fontes/Gloomy Things.otf') format('opentype'), url('fontes/Gloomy Things.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    tipos de format()
+    -opentype(otf)
+    -truetype(ttf)
+    -embedded-opentype
+    -truetype-att (apple advanced typography)
+    -svg 
+*/
+
+#myName {
+    font-family:'bigger';
+    color: rgb(255,0,110);
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
     color:orangered;
     font-size: 65px;
 }
@@ -39,6 +63,3 @@ h3 {
     text-align: center;
 }
 
-#myName {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
