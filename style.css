@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'bigger';
+    src: url('fontes/Gloomy Things.otf') format('opentype'), url('fontes/Gloomy Things.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    tipos de format()
+    -opentype(otf)
+    -truetype(ttf)
+    -embedded-opentype
+    -truetype-att (apple advanced typography)
+    -svg 
+*/
+
+#myName {
+    font-family:'bigger';
+    color: rgb(255,0,110);
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    color:orangered;
+    font-size: 65px;
+}
+
+body {
+    background-color: rgb(109,89,122);
+    font-size: 20px;
+}
+
+#tarefas {
+    background-color: red;
+}
+
+.list-style {
+    color: aqua;
+    background-color: black;
+}
+
+#list-non-ordenada {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+p {
+    font-family: monospace;
+    line-height: 18px;
+}
+
+h3 {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;            
+}
+
+.center {
+    text-align: center;
+}
+
