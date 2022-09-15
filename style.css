@@ -1,0 +1,40 @@
+h1 {
+    color:orangered;
+    font-size: 65px;
+}
+
+body {
+    background-color: darkseagreen;
+    font-size: 20px;
+}
+
+#tarefas {
+    background-color: red;
+}
+
+.list-style {
+    color: aqua;
+    background-color: black;
+}
+
+#list-non-ordenada {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+p {
+    font-family: monospace;
+    line-height: 18px;
+}
+
+h3 {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;            
+}
+
+.center {
+    text-align: center;
+}
