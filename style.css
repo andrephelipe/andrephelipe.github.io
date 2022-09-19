@@ -14,6 +14,12 @@
     -svg 
 */
 
+body {
+    background-color: rgb(109,89,122);
+    font-size: 20px;
+    padding: 3%;
+}
+
 #container01{    
     height: 290px;
     /* border: 5px solid white;  */
@@ -48,17 +54,12 @@
     position: absolute;
     top: 15px;
     left: 160px;
-    
+    right: 10px;
 }
 
 h2 {
     color:orangered;
     font-size: 65px;
-}
-
-body {
-    background-color: rgb(109,89,122);
-    font-size: 20px;
 }
 
 #tarefas {
@@ -84,5 +85,23 @@ h3 {
 }
 
 .center {
+    text-align: center;
+}
+
+#blog {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: aliceblue;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+#blog:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#final{
     text-align: center;
 }
