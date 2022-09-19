@@ -14,12 +14,41 @@
     -svg 
 */
 
+#container01{    
+    height: 290px;
+    /* border: 5px solid white;  */
+}
+
 #myName {
     font-family:'bigger';
     color: rgb(255,0,110);
     font-weight: normal;
     font-size: 70px;
     text-align: center;
+}
+
+#ft{
+    width: 150px;
+    border-radius: 100%;
+    float: left;
+    padding: 3px;
+    background-color: rgb(255, 0, 212);    
+}
+
+#apresentacao {
+    /* border: 2px solid yellow; */
+    height: 170px;
+    position: relative;    
+}
+
+.descricao {
+    color: aqua;
+    background-color: black;
+    text-align: justify;
+    position: absolute;
+    top: 15px;
+    left: 160px;
+    
 }
 
 h2 {
@@ -36,15 +65,10 @@ body {
     background-color: red;
 }
 
-.list-style {
-    color: aqua;
-    background-color: black;
-}
-
 #list-non-ordenada {
     background-color: darkgoldenrod;
     color: aliceblue;
-    font-weight: bold;
+    font-weight: bold;        
 }
 
 p {
@@ -62,4 +86,3 @@ h3 {
 .center {
     text-align: center;
 }
-
